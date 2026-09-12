@@ -1,6 +1,7 @@
 {
   "/services/microwave-repair/page": "app/services/microwave-repair/page.js",
-  "/services/kitchen-hood-repair/page": "app/services/kitchen-hood-repair/page.js",
-  "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/services/refrigerator-repair/page": "app/services/refrigerator-repair/page.js",
+  "/services/garbage-disposal-repair/page": "app/services/garbage-disposal-repair/page.js",
+  "/services/freezer-repair/page": "app/services/freezer-repair/page.js",
+  "/services/ice-maker-repair/page": "app/services/ice-maker-repair/page.js"
 }

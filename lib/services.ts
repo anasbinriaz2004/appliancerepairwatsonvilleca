@@ -9,8 +9,9 @@ import refrigerator_repair from "@/content/services/refrigerator-repair";
 import washer_dryer_repair from "@/content/services/washer-dryer-repair";
 import washing_machine_repair from "@/content/services/washing-machine-repair";
 import microwave_repair from "@/content/services/microwave-repair";
-
-export type { Service } from "@/content/services/types";
+import garbage_disposal_repair from "@/content/services/garbage-disposal-repair";
+import ice_maker_repair from "@/content/services/ice-maker-repair";
+import freezer_repair from "@/content/services/freezer-repair";
 
 export const services: Service[] = [
   air_conditioner_repair,
@@ -23,6 +24,9 @@ export const services: Service[] = [
   washer_dryer_repair,
   washing_machine_repair,
   microwave_repair,
+  garbage_disposal_repair,
+  ice_maker_repair,
+  freezer_repair,
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {
